@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Netflix-Sans";
+  src: local("./fonts"), local("./fonts"),
+    url("0ee166525d2905ee661af27e3f9d5151.woff2") format("woff2"),
+    url("0ee166525d2905ee661af27e3f9d5151.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Netflix-Sans";
+  src: local("./fonts"), local("./fonts"),
+    url("3d2759bb563b773a1c533c7ef72fdf85.woff2") format("woff2"),
+    url("3d2759bb563b773a1c533c7ef72fdf85.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
