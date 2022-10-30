@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+html {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#languages {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+}
+
+#hero {
+  position: relative;
+  /* width: 100%; */
+  /* overflow-x: hidden; */
+}
+
+#background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 1;
+  object-fit: cover;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3.5rem;
+  max-width: 19ch;
+  word-wrap: break-word;
+  text-align: center;
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 30px 20px;
+}
+
+#get-started {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+#get-started input[type="email"],
+button {
+  padding: 0.2rem 0.4rem;
+  border: none;
+  focus: none;
+}
+
+#get-started button {
+  background-color: red;
+}
